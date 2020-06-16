@@ -1,0 +1,32 @@
+.button {
+  background-color: white !important;
+  color: #333333 !important;
+  border: 1px solid #333333 !important;
+  border-radius: 0 !important;
+  text-shadow: none !important;
+}
+
+.button:hover {
+  background-color: #45e5e3 !important;
+}
+
+a,
+input[type="button"].link-like-button {
+  color: #45e5e3;
+}
+
+:root {
+  color: #333333;
+}
+
+#wrapper {
+  display: flex !important;
+  justify-content: center !important;
+}
+
+select option:focus,
+select option:hover,
+select option:active {
+  background-color: #45e5e3 !important;
+  color: #333333 !important;
+}
