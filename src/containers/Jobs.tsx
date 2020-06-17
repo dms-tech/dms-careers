@@ -64,7 +64,7 @@ const JobsContainer = () => {
 
 const ContainerStyled = styled(Grid)`
   && {
-    width: 85%;
+    width: 50%;
     justify-content: center;
     p {
       padding-top: 20px;

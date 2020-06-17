@@ -7,6 +7,7 @@ const HeaderComponent = () => {
 
 const HeaderStyled = styled.div`
   && {
+    text-align: center;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 52px;
