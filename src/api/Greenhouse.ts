@@ -1,4 +1,4 @@
-export const api = `https://boards-api.greenhouse.io/v1/boards/dms/`;
+export const api = `https://boards-api.greenhouse.io/v1/boards/dmstech/`;
 
 export const getJobs = () => {
   const endpoint = `departments?content=true`;
