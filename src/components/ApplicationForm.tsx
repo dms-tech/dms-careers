@@ -7,7 +7,7 @@ export interface Window {
 }
 
 const ApplicationFormComponent = (props: any) => {
-  //   useScript("https://boards.greenhouse.io/embed/job_board/js?for=dms");
+  //   useScript("https://boards.greenhouse.io/embed/job_board/js?for=dmstech");
   useEffect(() => {
     const script = document.createElement("script");
 

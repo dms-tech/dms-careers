@@ -13,7 +13,7 @@ import ListAltIcon from "@material-ui/icons/ListAlt";
 import useScript from "../hooks/useScript";
 
 const JobDetailsContainer = () => {
-  useScript("https://boards.greenhouse.io/embed/job_board/js?for=dms");
+  useScript("https://boards.greenhouse.io/embed/job_board/js?for=dmstech");
   const dispatch = useDispatch();
 
   const [apply, setApply] = useState(false);
