@@ -35,6 +35,15 @@ const JobsContainer = () => {
     })
     .filter((job: any) => {
       return job.jobs.length > 0;
+    })
+    .sort((a: any, b: any) => {
+      if (a.jobs.length > b.jobs.length) {
+        return 1;
+      }
+      if (a.jobs.length < b.jobs.length) {
+        return -1;
+      }
+      return 0;
     });
 
   return (
