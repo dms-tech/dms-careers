@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import useScript from "../hooks/useScript";
 import styled from "@emotion/styled";
 
 export interface Window {
