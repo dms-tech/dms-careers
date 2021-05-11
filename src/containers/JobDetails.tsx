@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "@emotion/styled";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../redux/store";
@@ -7,8 +7,6 @@ import { Grid, Button } from "@material-ui/core";
 
 import JobDescription from "../components/JobDescription";
 import ApplicationForm from "../components/ApplicationForm";
-
-import ListAltIcon from "@material-ui/icons/ListAlt";
 
 import useScript from "../hooks/useScript";
 
